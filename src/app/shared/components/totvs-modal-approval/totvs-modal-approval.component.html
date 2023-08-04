@@ -1,0 +1,37 @@
+<ion-content overflow-scroll="false">
+  <div class="container">
+    <div class="title">Modal de aprovação</div>
+    <div class="content">
+      <div class="subtitle">Do you really want to approve?</div>
+      <ion-textarea
+        class="textarea"
+        rows="4"
+        cols="20"
+        placeholder=" Motivo..."
+      ></ion-textarea>
+    </div>
+
+    <div class="bottom">
+      <ion-button
+        color="medium"
+        class="cancel"
+        expand="full"
+        (click)="cancel()"
+      >
+        Cancelar
+      </ion-button>
+      <ion-button color="danger" class="reprove" expand="full">
+        Reprovar
+      </ion-button>
+
+      <ion-button
+        color="success"
+        class="reprove"
+        expand="full"
+        (click)="showModal()"
+      >
+        Aprovar
+      </ion-button>
+    </div>
+  </div>
+</ion-content>

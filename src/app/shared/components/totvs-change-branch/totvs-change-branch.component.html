@@ -1,0 +1,29 @@
+<app-totvs-header [showNotification]="false" [showSettings]="false" (emitterClose)="cancel('cancel')" [title]=" 'Selecione a filial' | uppercase" (emitterSearchKey)="searchKey($event)"></app-totvs-header>
+
+<ion-content>
+
+  <ion-refresher slot="fixed" (ionRefresh)="loadData($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <ion-list>
+    <form [formGroup]="form" (ionChange)="submit()">
+    <ion-card>
+      <ion-item formArrayName="items" *ngFor="let item of establishmentsList; let i = index">
+        <ion-label>
+          <p class="title"> {{item.code}}</p>
+          <h3 class="text">{{item.description}}</h3>
+        </ion-label>
+        <ion-checkbox labelPlacement="end" justify="start" [formControlName]="i"></ion-checkbox>
+      </ion-item>
+    </ion-card>
+  </form>
+  </ion-list>
+</ion-content>
+
+<ion-footer>
+  <div class="group-button">
+    <ion-button class="button" size="medium" (click)="selectItemsChangeBranch()"
+      >Selecionar </ion-button>
+  </div>
+</ion-footer>

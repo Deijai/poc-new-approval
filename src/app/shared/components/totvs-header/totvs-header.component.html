@@ -1,0 +1,31 @@
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar>
+
+    <div class="container">
+      <div class="container-logo-title">
+        <ion-buttons slot="start">
+          <img alt="logo" class="svg-color" width="28" height="28" float-left src="assets/imgs/logo.svg">
+        </ion-buttons>
+        <ion-title slot="start">{{title}}</ion-title>
+      </div>
+
+      <div class="container-icon">
+        <ion-buttons *ngIf="showCloseButton" slot="end" (click)="close('cancel')">
+          <ion-icon slot="ion-icon" name="close-outline"></ion-icon>
+        </ion-buttons>
+
+        <ion-buttons *ngIf="showNotification" slot="end" (click)="notifications('notifications')">
+          <ion-icon slot="ion-icon" name="notifications"></ion-icon>
+        </ion-buttons>
+
+        <ion-buttons *ngIf="showSettings" slot="end" (click)="settings('settings')">
+          <ion-icon slot="ion-icon" name="settings-sharp"></ion-icon>
+        </ion-buttons>
+      </div>
+    </div>
+
+
+  </ion-toolbar>
+
+<ion-searchbar *ngIf="showSearch" animated="true" inputmode="text" [debounce]="500" (ionInput)="searchKey($event)" #input placeholder="Search"></ion-searchbar>
+</ion-header>

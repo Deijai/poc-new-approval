@@ -1,0 +1,203 @@
+.title-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+  color: var(--totvs-neutral-dark-40);
+  align-items: center;
+  .title{
+      font-size: 35px;
+  }
+}
+
+.container{
+
+      display: flex;
+      // justify-content: space-around;
+      flex-direction: column;
+      height: 100%;
+      min-height: fit-content;
+      padding: 16px;
+
+      .text-error {
+          font-size: 12px;
+          color: var(--totvs-danger);
+      }
+      .filter-list-container{
+          margin-top: 20px;
+          margin-bottom: 20px;
+          .label-style{
+              font-size: 14px
+          }
+      }
+      .title-item{
+          margin-bottom: 5px;
+          font-weight: 700;
+          color: var(--totvs-neutral);
+
+      }
+      .thf-icon.thf-icon-calendar:before {
+          color: var(--totvs-primary);
+          font-size: 20px;
+      }
+
+
+  .button-group{
+      min-width: fit-content;
+
+  }
+
+  .date-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .item-container{
+          width: 48%;
+      }
+
+  }
+
+  .first-button-group-container{
+      margin-top: 15px;
+  }
+  .title-date{
+      margin-top: 15px;
+      font-weight: 700;
+      color: var(--totvs-neutral);
+  }
+
+
+  .rect-inf{
+      min-width: 10px;
+      min-height: 30px;
+      background: var(--totvs-neutral);
+      margin-right: 7px
+  }
+
+  .rect-error{
+      min-width: 10px;
+      min-height: 30px;
+      background: #C64840;
+      margin-right: 7px
+  }
+
+  .rect-alert{
+      min-width: 10px;
+      min-height: 30px;
+      background:  #EA9B3E;
+      margin-right: 7px
+  }
+
+  .second-button-group-container{
+  margin-bottom: 20px;
+
+  }
+  .test {
+      box-shadow: none;
+      -webkit-box-shadow: none;
+  }
+
+
+  /* Radio group */
+  .segmented {
+      display:flex;
+      flex-flow:row wrap;
+      box-sizing:border-box;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 22x;
+      height: 38px;
+      color: var(--totvs-neutral);
+      text-align:center;
+      margin-left: 1px;
+      margin-right:  1px;
+
+  }
+
+  .color-blue {
+      color: var(--totvs-primary);
+  }
+  .button-group-container {
+      padding: 10px 0px 10px 0px;
+      ion-segment {
+          border-radius: 3px;
+          border: 1px solid var(--totvs-primary);
+          --background-checked:  var(--totvs-primary);
+          --border-radius: 3px;
+          --indicator-color-checked: none;
+          --color-checked: white;
+          --color: var(--totvs-primary)
+      }
+      .item-native {
+          padding-left: 0px;
+      }
+
+
+      ion-segment-button {
+          --background: white;
+          --background-hover: var(--totvs-primary);
+          --padding-top: 0px;
+          --padding-end: 0px;
+          --padding-bottom: 0px;
+          --padding-start: 0px;
+          text-overflow: ellipsis;
+          padding: 5px;
+      }
+
+      ion-label{
+          font-weight: bold;
+          font-size: 12px;
+          text-overflow: ellipsis;
+      }
+
+  }
+  .formSearch {
+      margin-top: 10px;
+      .thf-icon-clear-content {
+          color: var(--totvs-neutral-light-40);
+      }
+      .thf-icon-search {
+              color: var(--totvs-primary);
+          }
+      .searchKey {
+          margin-left: 10px
+      }
+      .item-native {
+          padding: 0px;
+      }
+
+  }
+}
+.close-icon{
+  --background-hover: none;
+  --color-activated:none;
+  --background:transparent;
+  --background-activated: transparent;
+  --ripple-color: transparent;
+  color: var(--totvs-neutral);
+}
+
+.group-button{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 0px 12px 0px 12px;
+  .button{
+      text-transform: none;
+      font-size: 12px;
+      font-weight: 700;
+  }
+  .outline {
+      --border-width: 1px;
+  }
+
+}
+
+.filiais-selecionadas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+

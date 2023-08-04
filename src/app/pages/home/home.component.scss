@@ -1,0 +1,121 @@
+ion-toolbar {
+  --background: var(--totvs-neutral-light-98);
+}
+
+ion-content {
+  height: 80vh;
+}
+
+ion-list {
+  --background: green;
+  margin: 5rem;
+}
+
+ion-icon {
+  font-size: 24px;
+}
+
+.tabs > .segment-button-layout-icon-top {
+ font-size: 15px;
+ text-transform: none;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px;
+  .left-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .right-container {
+      display: flex;
+      flex-direction: row;
+  }
+}
+
+.container {
+  background: var(--totvs-neutral-light-98);
+}
+
+.title-style {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--totvs-neutral);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 8px;
+}
+
+.upper-case {
+  text-transform: uppercase;
+}
+
+.large-font {
+  font-size: 18px;
+}
+
+.text-align-end{
+  text-align: end;
+}
+
+.text-align-initial{
+  text-align: initial;
+}
+
+.badge {
+  font-size: 10px;
+  top: 15px;
+  padding: 3px;
+  right: 55px;
+  position: absolute;
+}
+
+.small-font {
+  font-size: 12px;
+}
+
+.padding-bottom {
+  padding-bottom: 12px;
+}
+
+.left-padding {
+  padding-left: 24px;
+}
+
+.card-slide {
+  height: 100%;
+  width: 100%;
+}
+ion-slide {
+  width: 100% !important;
+}
+
+.padding-text {
+  padding: 0px 10px;
+}
+
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  height: 100%;
+  .error-text {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 250px;
+      color: var(--totvs-neutral)
+  }
+}
+
+ion-checkbox{
+  --border-radius: 100%;
+  --border-color: #0C9ABE
+}

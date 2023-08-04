@@ -1,0 +1,489 @@
+{
+    "COMMON": {
+        "TITLE": "Meu Protheus",
+        "CANCEL": "Cancel",
+        "TO_VIEW": "To View",
+        "OK": "OK",
+        "CLEAN": "Clean",
+        "MONTH": {
+            "JANUARY": "January",
+            "FEBRUARY": "February",
+            "MARCH": "March",
+            "APRIL": "April",
+            "MAY": "May",
+            "JUNE": "June",
+            "JULY": "July",
+            "AUGUST": "August",
+            "SEPTEMBER": "September",
+            "OCTOBER": "October",
+            "NOVEMBER": "November",
+            "DECEMBER": "December"
+        },
+        "LOADING": "Loading"
+    },
+    "LOGIN": {
+        "LOGIN": "Login",
+        "PASSWORD": "Enter your password",
+        "USERNAME": "Enter your username",
+        "UNAUTHORIZED": "Incorrect username or password",
+        "USER_NOT_AUTHORIZATION": "Unauthenticated user offline",
+        "ERROR_SERVICE": "There was an unexpected error, please try again.",
+        "INVALID_ALIAS": "Invalid alias.",
+        "TOKEN_FAIL": "Your session has expired, log in again.",
+        "DEMO_TITLE": "Demo Mode",
+        "NO_CONECTION": "No internet connection",
+        "DISABLE_SECURITY": "The system could not be accessed. Contact your system administrator and send the following message: 'Security' key is disabled in REST settings.",
+        "SUCCESS_TOAST": "Request was sent successfully",
+        "DEMO": "Demonstration",
+        "DEMO_MODE": "Please provide the following information to access My Protheus in Demo Mode:",
+        "ALIAS": {
+            "INSERT_ALIAS": "Insert alias",
+            "HELP": "The Alias ​​is your unique identifier in Totvs systems. Registration that aims to identify the company and the user who will use our applications. Request your Alias ​​by completing the fields below:",
+            "CANCEL": "Cancel",
+            "REQUEST_ALIAS": "Request alias",
+            "USERNAME": "Name",
+            "COMPANY_NAME": "Company name (optional)",
+            "EMAIL": "E-mail",
+            "PHONE_NUMBER": "Phone number",
+            "CNPJ": "CNPJ (optional)"
+        }
+    },
+    "HOME": {
+        "NOT_FOUND_ONLINE": "No events found.",
+        "NOT_FOUND_OFFLINE": "No offline events found.",
+        "REPORT": "Report",
+        "PROCESS": "Process",
+        "AGENT": "Agent",
+        "START": "Start",
+        "END": "End",
+        "FAILED": "Failed",
+        "EVENT_TYPE": "Type of event",
+        "INFORMATION": "Information",
+        "ALERT": "Alert",
+        "ERROR": "Error",
+        "NO_DATA_FOUND": "No data found"
+    },
+    "SETTINGS": {
+        "TITLE": "User data",
+        "USER": "User",
+        "CLIENT": "Client",
+        "SET": "Set",
+        "ENTERPRISE": "Company",
+        "BRANCH": "Branch",
+        "EXIT": "Exit the app",
+        "APP_VERSION": "App version",
+        "VERSION_NOT_FOUND": "Not available"
+    },
+    "FILTER": {
+        "FILTER": "Filter",
+        "SEARCH_TEXT": "Title, message, program, etc.",
+        "PERIOD": "Period",
+        "OF": "From ",
+        "UNTIL": "To",
+        "INFORMATION": "Information",
+        "ALERT": "Alert",
+        "ERROR": "Error",
+        "TYPE_EVENTS": "Type of events",
+        "SECURITY": "Security",
+        "ENVIRONMENT": "Environment",
+        "INSTALL": "Install",
+        "APPLY_FILTERS": "Apply filters",
+        "CRITICAL": "Criticality",
+        "REMOVE_FILTERS": "Remove filters",
+        "SEARCH": "Routine, message or title.",
+        "DATE_INVALID": "* End date must be greater than start date",
+        "DATE_REQUIRED": "* Both dates need to be filled."
+    },
+    "FILTER_APPROVALS": {
+        "FILTER": "Filter",
+        "PERIOD": "Períod",
+        "OF": "Of",
+        "UNTIL": "Until",
+        "PURCHASE_ORDER": "Purchase Order",
+        "TRAVEL": "Travel",
+        "ERROR": "Error",
+        "TYPE": "Type",
+        "TYPE_EVENTS": "Type of Events",
+        "SECURITY": "Security",
+        "ENVIRONMENT": "Environment",
+        "INSTALL": "Install",
+        "APPLY_FILTERS": "Apply Filters",
+        "CRITICAL": "Critical",
+        "REMOVE_FILTERS": "Remove Filters",
+        "SEARCH": "Search",
+        "DATE_INVALID": "* The end date must be greater than the start date",
+        "DATE_REQUIRED": "* Both dates need to be filled",
+        "TYPE_SEARCH": "You can search for:",
+        "TYPE_SUPPLIER": "Supplier code or name",
+        "TYPE ORDER": "Request Code",
+        "TYPE_OF_TRIP": "Trip Code",
+        "TYPE_OF_REQUEST": "Request Code",
+        "TYPE_OF_MEASUREMENT": "Measurement Code",
+        "ACCOUNTABILITY": "Accontability",
+        "PURCHASE_REQUEST": "Purchase Request",
+        "MEASUREMENT_CONTRACT": "Measurement Contract"
+    },
+    "CHANGE_BRANCH": {
+        "PLACEHOLDER": "Search for branch code or description",
+        "TITLE": "CHANGE OF BRANCH",
+        "LOADING": "Loading...",
+        "PERIOD": "Period",
+        "INVALID_USER": "User without access to company / branch",
+        "UNABLE_TO_CHANGE_BRANCH": "It is not possible to switch branches, there are still pending synchronization items."
+    },
+    "SELECTOR": {
+        "NO_DATA_FOUND": "No data found"
+    },
+    "APPROVALS": {
+        "ACCOUNTABILITY": "Accontability",
+        "PARTICIPANT": "Participant",
+        "COST_CENTER": "Cost Center",
+        "GOING": "Going",
+        "RETURN": "Back",
+        "REASON": "Reason",
+        "DETAIL": "Details",
+        "PURCHASE_ORDER": "Purchase Order",
+        "BRANCH": "Branch",
+        "PROVIDER": "Supplier",
+        "CONDITION": "Condition",
+        "DATE": "Date",
+        "BUYER": "Buyer",
+        "COMMENT": "Comment",
+        "VALUE": "Value",
+        "SEND_COMMENT": "Send Rejection",
+        "PURCHASE_HISTORIC": "Purchase History",
+        "PRODUCT": "Product",
+        "QUANTITY": "Quantity",
+        "UNIT_VALUE": "V.Unit",
+        "ADDITIONAL_INFORMATION": "Additional Information",
+        "NOT_FOUND": "No items found",
+        "CUSTOMIZATION": "Customization",
+        "UNIT_MEASUREMENT": "Measurement Unit",
+        "TOTAL_VALUE": "Total Value",
+        "CODE": "Product Code",
+        "VIEW_MORE": "View More",
+        "HISTORIC": "Track Record",
+        "ALIAS_HELP": "ALIAS is your unique identifier in TOTVS systems. It is the registration that aims to identify the company and the user who will access our applications. Request your ALIAS by filling out the information below:",
+        "ALIAS_CANCEL": "Cancel",
+        "ALIAS_REQUEST": "Request",
+        "REASON_REPROVE": "Reason for Rejection",
+        "APPROVE_ITEMS": "Approve",
+        "FAIL_ITEMS": "Reject",
+        "APPROVE_ITEMS_BATCH": "Approve",
+        "FAIL_ITEMS_BATCH": "Reject",
+        "APPROVED": "Approved",
+        "PENDING": "Pendings",
+        "REJECTED": "Reject",
+        "ATTACHMENTS": "Attachments",
+        "VALID_PURCHASE": "Validating order(s) in PROTHEUS",
+        "SELECT_PURCHASE": "The selected order has a discrepancy from PROTHEUS, please refresh the page.",
+        "PURCHASE_REQUEST": "Purchase Request",
+        "REQUEST_ORDERER": "Requester",
+        "SUPPLYER_NAME": "Supplyer",
+        "APPROVAL_GROUP": "Group"
+    },
+    "APPROVALS_DETAIL": {
+        "COST_CENTER": "Cost Center",
+        "CLIENT": "Client",
+        "NON_REFUNDABLE": "Non Refundable",
+        "REFUNDABLE": "Refundable",
+        "GO": "Go",
+        "RETURN": "Back",
+        "SOURCE": "Source",
+        "PLACE": "Place",
+        "AMOUNT": "Amount",
+        "TOTAL_VALUE": "Total value",
+        "SUCCESS_TOAST": "Request was sent successfully",
+        "DIVERGENCE": "Divergece",
+        "PREVIOUS_VALUE":"Previous Value",
+        "PRESENT_VALUE":"Current Value",
+        "CLOSE_UPDATE": "Close",
+        "MESSAGE_ERROR": "Action not allowed. Selected Order(s) has discrepancies from Protheus. Please update the page and try again."
+    },
+    "SHARE": {
+        "INFORMATION_EVENT": "Information Event",
+        "WARNING_EVENT": "Attention Event",
+        "ERROR_EVENT": "Error Event",
+        "UNDEFINED_EVENT": "Undefined Event",
+        "MESSAGE": {
+            "SUBJECT_MATTER": "I am sharing with you an event that occurred in PROTHEUS.",
+            "TYPE": "Type:",
+            "TITLE": "Title:",
+            "MESSAGE": "Message:",
+            "HOURS": "Time of Events:"
+        }
+    },
+    "TABS": {
+        "APPROVALS": "Approvals",
+        "EVENTS": "Events"
+    },
+    "MODAL_NOTE": {
+        "COMMENTS": "Comments",
+        "NO_OBSERVATIONS": "No observations"
+    },
+    "MODAL_DEVIATION": {
+        "TITLE": "Expenditure outside the practiced values",
+        "DESCRIPTION_1": "This expense is",
+        "DESCRIPTION_2": "% * above the average value in this region",
+        "OBSERVATION_1": "Note: This notice is not a hindrance to the approval of this accountability.",
+        "OBSERVATION_2": "* Amounts obtained through consulting refund requests that were previously included in your company's system."
+    },
+    "MODAL_APPROVAL_COMPONENT": {
+        "APPROVAL": "Do you really want to approve?",
+        "FAIL": "Do you really want to reject?",
+        "REASON": "Reason",
+        "CONFIRM_APPROVAL": "Approve",
+        "CONFIRM_FAIL": "Reject",
+        "CANCEL": "Cancel"
+    },
+    "PURCHARSES_ATTACHMENTS": {
+        "ATTACHMENTS": "Attachments",
+        "NAME": "Name",
+        "EXTENSION":"Extension",
+        "NOT_FOUND":"No items found",
+        "LOADING_FILE": "Loading Attachment",
+        "ALERT":"Alert",
+        "FILE_SIZE":"Attachment larger than 5 MB.",
+        "ALERT_DOWNLOAD":"Due to the size of the attachment, it may not be opened.",
+        "OVERSIZE":"Attachment size exceeded",
+        "DOWNLOAD":"Do you really want to continue?",
+        "YES":"Yes",
+        "NO":"No",
+        "STATUS":"Status",
+        "SHOW": "Show",
+        "DOCUMENT_WITH": "Attachment with"
+    },
+    "DEMO": {
+        "DEMO_MODE": "Demo Mode",
+        "WELCOME": "Welcome to My Protheus's Demo Mode. Here you will find the main features of our application.",
+        "NEXT": "Next",
+        "PENDING_ITEMS": "Pending Items",
+        "DESCRIPTION": "In this tab you will find the Expenses and Purchase Orders pending approval. You can also disapprove them if there is any inconsistency.",
+        "APPROVALS": "Approvals",
+        "PURCHASE_ORDERS": "Purchase Orders",
+        "DESCRIPTION_2": "On this tab you will find the Purchase Orders that have been approved.",
+        "DISAPPROVE": "Disapproved",
+        "DESCRIPTION_3": "On this tab you will find Purchase Orders that were disapproved.",
+        "EVENTS": "Events",
+        "DESCRIPTION_4": "On this tab you can view the processing progress of some routines and processes that occur within Protheus.",
+        "APPROVAL": "Approval",
+        "EXPENDITURE_AND_ORDERS": "Expenses and Orders",
+        "DESCRIPTION_5": "On this tab you can view the processing progress of some routines and processes that occur within Protheus.",
+        "PURCHASE_REQUESTS": "Purchase Requests",
+        "BRANCH_DESCRIPTION": "BRANCH 99",
+        "PURCHASER_NAME": "Purchaser",
+        "SUPPLYER_NAME": "Supplyer",
+        "REQUESTER_NAME": "Requester",
+        "PRODUCT_NAME": "DEMONSTRATION PRODUCT"
+    },
+    "MESSAGE_CODES": {
+        "OPERATION_SUCCESS": "Operation Successfully Completed.",
+        "MSG_REQUEST_APPROVED": "Purchase Request Approved.",
+        "MSG_REQUEST_REJECTED": "Purchase Request Rejected."
+    },
+    "CONTRACTS": {
+        "TITLE": "My Contracts",
+        "COMMOM": {
+            "CANCEL": "Cancelar",
+            "SELECT": "Select",
+            "EXPIRES_IN":"Expires in ",
+            "DAYS":" days"
+        },
+        "CONTRACTS": {
+            "FILTER": {
+                "CLIENT": "Select customer...",
+                "SUPPLIER": "Select supplier..."
+            },
+            "NO_CONTRACTS": "Wasn't able to find any contract.",
+            "TYPE": {
+                "PURCHASE": "Purchase",
+                "SALE": "Sale"
+            },
+            "PRESENT_RESULTS_FILTERED_BY": "Showing results filtered by",
+            "EXPERIRATION_BANNER_MSG": " contracts about to expires",
+            "SHOW":"Show",
+            "EXPIRING":"About to expire",
+            "EXPIRES_TODAY": "Expires today",
+            "EXPIRED": "Expired"
+        },
+        "FILTERS": {
+            "TITLE": "Filter",
+            "TYPE": "Type",
+            "TYPE_SEL": {
+                "ALL": "All",
+                "BUY": "Purchase",
+                "SELL": "Sale"
+            },
+            "SELECT_CLIENT": "Customer",
+            "SELECT_SUPPLIER": "Supplier",
+            "APPLY": "Apply Filters"
+        },
+        "CONTRACT-DETAIL": {
+            "CONTRACT_SUMMARY": "Contract Summary",
+            "LABELS": {
+                "BALANCE": "Balance",
+                "CURRENT_VALUE": "Current value of the contract",
+                "CURRENT_BALANCE": "Current balance of the contract",
+                "CONTRACT_NUMBER": "Contract Number",
+                "SPREADSHEET": "Spreadsheet",
+                "VALIDITY": "Validity"
+            },
+            "SPREADSHEETS": "Spreadsheets",
+            "TOTAL_VALUE": "Total Value",
+            "CONTRACT_BALANCE":"Contract Balance",
+            "DETAIL":"Detailed",
+            "SEE_DETAILS": "See details"
+        },
+        "ERRORS": {
+            "INVALID_CREDENTIALS": "Invalid user or password!",
+            "UNEXPECTED_ERROR": "An unexpected error has ocurred."
+        },
+        "GENERIC_INFO": {
+            "LOADING": "Loading...",
+            "REFRESH": {
+                "PULL_TEXT": "Pull to update",
+                "REFRESHING": "Updating..."
+            },
+            "WAITING_MESSAGE": "Please, wait a moment..."
+        },
+        "LOGIN": {
+            "FORM": {
+                "ALIAS": {
+                    "ERRORS": {
+                        "REQUIRED": "You must inform an alias"
+                    },
+                    "LABEL": "Alias"
+                },
+                "PASSWORD": {
+                    "ERRORS": {
+                        "REQUIRED": "You must inform a password"
+                    },
+                    "LABEL": "Password"
+                },
+                "PASSWORD_TOGGLE": "Show Password",
+                "SIGN_IN_BUTTON": "Sign In",
+                "USERNAME": {
+                    "ERRORS": {
+                        "REQUIRED": "You must inform an user"
+                    },
+                    "LABEL": "User"
+                }
+            },
+            "TITLE": "My Contracts"
+        },
+        "CONFIG": {
+            "TITLE": "Settings",
+            "CONFIGURACOES": "Settings",
+            "PARAMETROS": "Parameters",
+            "EMPRESA": "Company",
+            "FILIAL": "Subsidiary",
+            "DADOS_DE_LOGIN": "Login Data",
+            "USUARIO": "User",
+            "CLIENTE": "Customer",
+            "SET": "Set",
+            "SAVED_CONTACTS": "Saved Contacts",
+            "ADD_CONTACT": "Add new contact",
+            "CONTACT": "Contact",
+            "LOADING": "Loading...",
+            "SAIR": "Sign out",
+            "ERROR_INSERT_CONTACT": "Inform the contact",
+            "LOGOUT_ALERT": {
+                "TITLE": "Are you sure?",
+                "MSG": "Do you really want to leave?\n All application data will be erased",
+                "BTN_CANC": "Cancel",
+                "BTN_CONF": "Confirm"
+            }
+        },
+        "LOOKUP": {
+            "CANCEL": "Cancel",
+            "CHOOSE": "Choose",
+            "CUSTOMER": {
+                "PLACEHOLDER": "Customers",
+                "SEARCHING": "Searching customers...",
+                "TITLE": "Search Customers"
+            },
+            "SEARCH": "Search",
+            "SUPPLIER": {
+                "PLACEHOLDER": "Suppliers",
+                "SEARCHING": "Searching suppliers...",
+                "TITLE": "Search Suppliers"
+            }
+        },
+        "PLACEHOLDER": {
+            "SEARCH": "Search"
+        },
+        "TABS": {
+            "CONTRACTS": "Contracts",
+            "MEASUREMENTS": "Measurements",
+            "SETTINGS": "Settings"
+        },
+        "MEASUREMENTS": {
+            "MEASUREMENTS": "Measurements",
+            "MEASUREMENT": "Measurement",
+            "CONTRACT": "Contract",
+            "TYPE": "Type",
+            "COMPETENCE": "Jurisdiction",
+            "SPREADSHEETS": "Spreadsheets",
+            "SEE_ITEMS": "Show items",
+            "UNIT": "Unity",
+            "CUSTOMER": "Customer",
+            "SUPPLIER": "Buyer",
+            "NUMBER": "Number",
+            "STATUS": "Status",
+            "REPROVE": "Disapprove",
+            "APPROVE": "Approver",
+            "JUSTIFICATION": "Justification",
+            "HISTORY": "History",
+            "NO_MEASUREMENTS": "There are no pendding approvals.",
+            "NO_MEASUREMENTS_FOUND": "There are no pending approvals with the search performed.",
+            "APPROVE_SUCCESS": "Measurement successfully approved",
+            "REPROVE_SUCCESS": "Measurement succesfully disapproved"
+        },
+        "ITEMS": {
+            "TITLE": "Measurement Items",
+            "PRODUCT": "Product",
+            "QUANTITY": "Quantity",
+            "QUANTITY_ITEMS": "Items",
+            "DISCOUNT": "% of discount",
+            "UNIT_VALUE": "Unitary Value",
+            "TOTAL_VALUE": "Total Value",
+            "DELIVERY_DATE": "Delivery Date",
+            "NO_ITEMS": "Measurement without items."
+        },
+        "MEASUREMENT_CARD": {
+            "NUMBER": "Contract",
+            "DESCRIPTION": "Description",
+            "TOTAL_VALUE": "Total Value",
+            "COMPETENCE": "Jurisdiction",
+            "HISTORY": "Approval History",
+            "SPREADSHEETS": "Spreadsheets",
+            "SPREADSHEET": "Spreadsheet",
+            "APPROVE": "Approval",
+            "REPROVE": "Disapprove",
+            "OPTIONAL":"Optional",
+            "JUSTIFICATION": "Justification",
+            "CANCEL": "Cancel",
+            "SEE_ITEMS": "Show items"
+        },
+        "OFFLINE": {
+          "DETAIL": "You need an internet connection for the full operation of the application.",
+          "MESSAGE": "You have no internet connection."
+        },
+        "BALANCE-DETAILED":{
+            "TITLE":"Detailed",
+            "FLEX":"Flex",
+            "FIXED":"Fixed",        
+            "ACCOMPLISHED":"Accomplished",
+            "BUDGETED": "Budgeted",
+            "FORECAST": "Forecast"
+          },
+          "SPREADSHEET_DETAILED": {
+              "BUDGETED": "Budgeted",
+              "ACCOMPLISHED": "Accomplished",
+              "FILTERS": "Filters",
+              "QTD_COMPETENCY": "Quantity of competencies",
+              "SHOW_ONLY_DIVERGENTS": "Show only divergents",
+              "OVERVIEW":"Overview"
+          }
+    }
+}

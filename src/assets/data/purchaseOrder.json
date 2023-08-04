@@ -1,0 +1,99 @@
+[
+  {
+    "documents": [
+      {
+        "documentBranch": "D MG 01",
+        "documentNumber": "PMSAKK",
+        "documentTotal": 500,
+        "documentType": "PC",
+        "documentUserName": "MOBILE",
+        "documentGroupAprov": "BIGROM",
+        "documentItemGroup": "01",
+        "documentStatus": "02",
+        "documentCurrency": "R$",
+        "documentCreated": "20201101",
+        "scrId": 550,
+        "purchaseOrder": {
+          "supplyerName": "CARAJAS MATERIAS DE CONSTRUCAO",
+          "paymentTermDescription": "A VISTA",
+          "purchaserName": "MCD001",
+          "orderTotal": 68,
+          "currency": "R$",
+          "date": "20201101",
+          "itemDescriptionCostCenter": "C. CUSTO WILL",
+          "recno": 1355
+        }
+      },
+      {
+        "documentBranch": "D MG 01",
+        "documentNumber": "PMSAKM",
+        "documentTotal": 500,
+        "documentType": "PC",
+        "documentUserName": "MOBILE",
+        "documentGroupAprov": "BIGROM",
+        "documentItemGroup": "01",
+        "documentStatus": "02",
+        "documentCurrency": "R$",
+        "documentCreated": "20201101",
+        "scrId": 550,
+        "purchaseOrder": {
+          "supplyerName": "CARAJAS MATERIAS DE CONSTRUCAO",
+          "paymentTermDescription": "A VISTA",
+          "purchaserName": "MCD001",
+          "orderTotal": 68,
+          "currency": "R$",
+          "date": "20201101",
+          "itemDescriptionCostCenter": "C. CUSTO WILL",
+          "recno": 1355
+        }
+      },
+      {
+        "documentBranch": "D MG 02",
+        "documentNumber": "PMSANE",
+        "documentTotal": 500,
+        "documentType": "PC",
+        "documentUserName": "MOBILE",
+        "documentGroupAprov": "BIGROM",
+        "documentItemGroup": "01",
+        "documentStatus": "02",
+        "documentCurrency": "R$",
+        "documentCreated": "20201101",
+        "scrId": 550,
+        "purchaseOrder": {
+          "supplyerName": "CARAJAS MATERIAS DE CONSTRUCAO",
+          "paymentTermDescription": "A VISTA",
+          "purchaserName": "MCD001",
+          "orderTotal": 68,
+          "currency": "R$",
+          "date": "20201101",
+          "itemDescriptionCostCenter": "C. CUSTO WILL",
+          "recno": 1355
+        }
+      },
+      {
+        "documentBranch": "D MG 05",
+        "documentNumber": "PMSAGF",
+        "documentTotal": 500,
+        "documentType": "PC",
+        "documentUserName": "MOBILE",
+        "documentGroupAprov": "BIGROM",
+        "documentItemGroup": "01",
+        "documentStatus": "02",
+        "documentCurrency": "R$",
+        "documentCreated": "20201101",
+        "scrId": 550,
+        "purchaseOrder": {
+          "supplyerName": "CARAJAS MATERIAS DE CONSTRUCAO",
+          "paymentTermDescription": "A VISTA",
+          "purchaserName": "MCD001",
+          "orderTotal": 68,
+          "currency": "R$",
+          "date": "20201101",
+          "itemDescriptionCostCenter": "C. CUSTO WILL",
+          "recno": 1355
+        }
+      }
+    ],
+    "hasNext": true
+  }
+]

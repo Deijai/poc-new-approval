@@ -1,0 +1,257 @@
+[
+  {
+    "documents": [
+      {
+        "documentBranch": "D SP 01",
+        "documentNumber": "000245",
+        "documentTotal": 100,
+        "documentType": "MD",
+        "documentUserName": "SOLICITANTE/COMPRADOR - MOBILE",
+        "documentGroupAprov": "BIGROM",
+        "documentItemGroup": "01",
+        "documentStatus": "02",
+        "documentCurrency": "R$",
+        "documentCreated": "20230411",
+        "scrId": 802,
+        "purchaseOrder": {},
+        "purchaseRequest": {},
+        "measurements": {
+          "contractNumber": "TREINAMENTO0580",
+          "review": " ",
+          "competence": "12/2023",
+          "spreadsheet": [
+            {
+              "number": "000002",
+              "description": "CONFORME CONTRATO",
+              "items": [
+                {
+                  "item": "0001",
+                  "product_code": "PRD001",
+                  "product_description": "PRODUTO 001",
+                  "quantity": 0.83285714,
+                  "discount": "0%",
+                  "unitary_value": 7,
+                  "total_value": 5.83,
+                  "value_symbol": "R$",
+                  "delivery_date": "20221208"
+                },
+                {
+                  "item": "0002",
+                  "product_code": "PRD002",
+                  "product_description": "PRODUTO 002",
+                  "quantity": 0.33384615,
+                  "discount": "0%",
+                  "unitary_value": 2,
+                  "total_value": 0.67,
+                  "value_symbol": "R$",
+                  "delivery_date": "20221208"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "documentBranch": "D SP 01",
+        "documentNumber": "000292",
+        "documentTotal": 100,
+        "documentType": "MD",
+        "documentUserName": "SOLICITANTE/COMPRADOR - MOBILE",
+        "documentGroupAprov": "BIGROM",
+        "documentItemGroup": "01",
+        "documentStatus": "02",
+        "documentCurrency": "R$",
+        "documentCreated": "20230411",
+        "scrId": 802,
+        "purchaseOrder": {},
+        "purchaseRequest": {},
+        "measurements": {
+          "contractNumber": "TREINAMENTO0580",
+          "review": " ",
+          "competence": "12/2023",
+          "spreadsheet": [
+            {
+              "number": "000002",
+              "description": "CONFORME CONTRATO",
+              "items": [
+                {
+                  "item": "0001",
+                  "product_code": "PRD001",
+                  "product_description": "PRODUTO 001",
+                  "quantity": 0.83285714,
+                  "discount": "0%",
+                  "unitary_value": 7,
+                  "total_value": 5.83,
+                  "value_symbol": "R$",
+                  "delivery_date": "20221208"
+                },
+                {
+                  "item": "0002",
+                  "product_code": "PRD002",
+                  "product_description": "PRODUTO 002",
+                  "quantity": 0.33384615,
+                  "discount": "0%",
+                  "unitary_value": 2,
+                  "total_value": 0.67,
+                  "value_symbol": "R$",
+                  "delivery_date": "20221208"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "documentBranch": "D SP 01",
+        "documentNumber": "000295",
+        "documentTotal": 100,
+        "documentType": "MD",
+        "documentUserName": "SOLICITANTE/COMPRADOR - MOBILE",
+        "documentGroupAprov": "BIGROM",
+        "documentItemGroup": "01",
+        "documentStatus": "02",
+        "documentCurrency": "R$",
+        "documentCreated": "20230411",
+        "scrId": 802,
+        "purchaseOrder": {},
+        "purchaseRequest": {},
+        "measurements": {
+          "contractNumber": "TREINAMENTO0580",
+          "review": " ",
+          "competence": "12/2023",
+          "spreadsheet": [
+            {
+              "number": "000002",
+              "description": "CONFORME CONTRATO",
+              "items": [
+                {
+                  "item": "0001",
+                  "product_code": "PRD001",
+                  "product_description": "PRODUTO 001",
+                  "quantity": 0.83285714,
+                  "discount": "0%",
+                  "unitary_value": 7,
+                  "total_value": 5.83,
+                  "value_symbol": "R$",
+                  "delivery_date": "20221208"
+                },
+                {
+                  "item": "0002",
+                  "product_code": "PRD002",
+                  "product_description": "PRODUTO 002",
+                  "quantity": 0.33384615,
+                  "discount": "0%",
+                  "unitary_value": 2,
+                  "total_value": 0.67,
+                  "value_symbol": "R$",
+                  "delivery_date": "20221208"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "documentBranch": "D SP 01",
+        "documentNumber": "000285",
+        "documentTotal": 100,
+        "documentType": "MD",
+        "documentUserName": "SOLICITANTE/COMPRADOR - MOBILE",
+        "documentGroupAprov": "BIGROM",
+        "documentItemGroup": "01",
+        "documentStatus": "02",
+        "documentCurrency": "R$",
+        "documentCreated": "20230411",
+        "scrId": 802,
+        "purchaseOrder": {},
+        "purchaseRequest": {},
+        "measurements": {
+          "contractNumber": "TREINAMENTO0580",
+          "review": " ",
+          "competence": "12/2023",
+          "spreadsheet": [
+            {
+              "number": "000002",
+              "description": "CONFORME CONTRATO",
+              "items": [
+                {
+                  "item": "0001",
+                  "product_code": "PRD001",
+                  "product_description": "PRODUTO 001",
+                  "quantity": 0.83285714,
+                  "discount": "0%",
+                  "unitary_value": 7,
+                  "total_value": 5.83,
+                  "value_symbol": "R$",
+                  "delivery_date": "20221208"
+                },
+                {
+                  "item": "0002",
+                  "product_code": "PRD002",
+                  "product_description": "PRODUTO 002",
+                  "quantity": 0.33384615,
+                  "discount": "0%",
+                  "unitary_value": 2,
+                  "total_value": 0.67,
+                  "value_symbol": "R$",
+                  "delivery_date": "20221208"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "documentBranch": "D SP 01",
+        "documentNumber": "000395",
+        "documentTotal": 100,
+        "documentType": "MD",
+        "documentUserName": "SOLICITANTE/COMPRADOR - MOBILE",
+        "documentGroupAprov": "BIGROM",
+        "documentItemGroup": "01",
+        "documentStatus": "02",
+        "documentCurrency": "R$",
+        "documentCreated": "20230411",
+        "scrId": 802,
+        "purchaseOrder": {},
+        "purchaseRequest": {},
+        "measurements": {
+          "contractNumber": "TREINAMENTO0580",
+          "review": " ",
+          "competence": "12/2023",
+          "spreadsheet": [
+            {
+              "number": "000002",
+              "description": "CONFORME CONTRATO",
+              "items": [
+                {
+                  "item": "0001",
+                  "product_code": "PRD001",
+                  "product_description": "PRODUTO 001",
+                  "quantity": 0.83285714,
+                  "discount": "0%",
+                  "unitary_value": 7,
+                  "total_value": 5.83,
+                  "value_symbol": "R$",
+                  "delivery_date": "20221208"
+                },
+                {
+                  "item": "0002",
+                  "product_code": "PRD002",
+                  "product_description": "PRODUTO 002",
+                  "quantity": 0.33384615,
+                  "discount": "0%",
+                  "unitary_value": 2,
+                  "total_value": 0.67,
+                  "value_symbol": "R$",
+                  "delivery_date": "20221208"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "hasNext": true
+  }
+]

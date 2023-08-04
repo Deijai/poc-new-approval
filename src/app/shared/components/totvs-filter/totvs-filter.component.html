@@ -1,0 +1,33 @@
+<ion-content>
+  <div class="container">
+    <div class="title-container">
+      <div class="title"> Filtros </div>
+      <span class="thf-icon thf-icon-close"></span>
+    </div>
+    <form>
+      <div class="filter-list-container">
+        <ion-list>
+          <div class="title-item">
+           Filiais
+          </div>
+          <ion-button class="button" size="medium" (click)="openChangeBranch()"
+      >Selecionar Filiais </ion-button>
+        </ion-list>
+      </div>
+
+      <div class="filiais-selecionadas">
+        <ion-badge slot="start" *ngFor="let branch of branchs">
+          <span *ngIf="branch">{{ branch }}</span>
+        </ion-badge>
+
+      </div>
+    </form>
+  </div>
+
+</ion-content>
+<ion-footer>
+  <div class="group-button">
+    <ion-button class="button" size="medium" (click)="selectItemsFilter()"
+      >Aplicar Filtros </ion-button>
+  </div>
+</ion-footer>

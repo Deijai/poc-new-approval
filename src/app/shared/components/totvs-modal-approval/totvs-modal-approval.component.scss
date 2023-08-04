@@ -1,0 +1,44 @@
+.container {
+
+  padding: 6px 16px 6px 16px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 30%;
+  .title {
+      display: flex;
+      justify-content: left;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      color: var(--totvs-neutral);
+  }
+  .subtitle {
+
+      display: flex;
+      justify-content: left;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      color: var(--totvs-neutral);
+  }
+  .textarea{
+      background-color: var(--totvs-neutral-light-90);
+  }
+  .bottom {
+      font-weight: bold;
+      display: flex;
+      justify-content: space-around;
+      .reprove {
+
+          color: var(--totvs-white)
+      }
+      .cancel{
+
+          color: var(--totvs-white)
+      }
+  }
+
+
+}

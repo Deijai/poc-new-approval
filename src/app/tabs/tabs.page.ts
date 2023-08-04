@@ -1,3 +1,4 @@
+import { DataService } from './../shared/services/data.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,6 +8,9 @@ import { Component } from '@angular/core';
 })
 export class TabsPage {
 
-  constructor() {}
+  public verifyApi: boolean = false;
+  constructor(private dataService: DataService) {
+    this.verifyApi = this.dataService.newApprovalApi;
+  }
 
 }

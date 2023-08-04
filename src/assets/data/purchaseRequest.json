@@ -1,0 +1,117 @@
+[
+  {
+    "documents": [
+      {
+        "documentBranch": "D MG 02",
+        "documentNumber": "X12683",
+        "documentTotal": 500,
+        "documentType": "SC",
+        "documentUserName": "MOBILE",
+        "documentGroupAprov": "BIGROM",
+        "documentItemGroup": "01",
+        "documentStatus": "02",
+        "documentCurrency": "R$",
+        "documentCreated": "20201101",
+        "scrId": 550,
+        "purchaseOrder": {},
+        "purchaseRequest": {
+          "requesterName": "RUBENS PORTELA",
+          "requestTotal": 680,
+          "date": "20201101",
+          "CostCenter": "C. CUSTO WILL",
+          "recno": 1355
+        },
+        "measurements": {}
+      },
+      {
+        "documentBranch": "D MG 02",
+        "documentNumber": "X12679",
+        "documentTotal": 500,
+        "documentType": "SC",
+        "documentUserName": "MOBILE",
+        "documentGroupAprov": "BIGROM",
+        "documentItemGroup": "01",
+        "documentStatus": "02",
+        "documentCurrency": "R$",
+        "documentCreated": "20201101",
+        "scrId": 550,
+        "purchaseOrder": {},
+        "purchaseRequest": {
+          "requesterName": "RUBENS PORTELA",
+          "requestTotal": 680,
+          "date": "20201101",
+          "CostCenter": "C. CUSTO WILL",
+          "recno": 1355
+        },
+        "measurements": {}
+      },
+      {
+        "documentBranch": "D MG 02",
+        "documentNumber": "X12645",
+        "documentTotal": 500,
+        "documentType": "SC",
+        "documentUserName": "MOBILE",
+        "documentGroupAprov": "BIGROM",
+        "documentItemGroup": "01",
+        "documentStatus": "02",
+        "documentCurrency": "R$",
+        "documentCreated": "20201101",
+        "scrId": 550,
+        "purchaseOrder": {},
+        "purchaseRequest": {
+          "requesterName": "RUBENS PORTELA",
+          "requestTotal": 680,
+          "date": "20201101",
+          "CostCenter": "C. CUSTO WILL",
+          "recno": 1355
+        },
+        "measurements": {}
+      },
+      {
+        "documentBranch": "D MG 02",
+        "documentNumber": "X12641",
+        "documentTotal": 500,
+        "documentType": "SC",
+        "documentUserName": "MOBILE",
+        "documentGroupAprov": "BIGROM",
+        "documentItemGroup": "01",
+        "documentStatus": "02",
+        "documentCurrency": "R$",
+        "documentCreated": "20201101",
+        "scrId": 550,
+        "purchaseOrder": {},
+        "purchaseRequest": {
+          "requesterName": "RUBENS PORTELA",
+          "requestTotal": 680,
+          "date": "20201101",
+          "CostCenter": "C. CUSTO WILL",
+          "recno": 1355
+        },
+        "measurements": {}
+      },
+      {
+        "documentBranch": "D MG 02",
+        "documentNumber": "X12673",
+        "documentTotal": 500,
+        "documentType": "SC",
+        "documentUserName": "MOBILE",
+        "documentGroupAprov": "BIGROM",
+        "documentItemGroup": "01",
+        "documentStatus": "02",
+        "documentCurrency": "R$",
+        "documentCreated": "20201101",
+        "scrId": 550,
+        "purchaseOrder": {},
+        "purchaseRequest": {
+          "requesterName": "RUBENS PORTELA",
+          "requestTotal": 680,
+          "date": "20201101",
+          "CostCenter": "C. CUSTO WILL",
+          "recno": 1355
+        },
+        "measurements": {}
+      }
+    ],
+    "hasNext": true
+  }
+]

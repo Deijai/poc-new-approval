@@ -1,0 +1,446 @@
+{{ approval }}
+<ng-container *ngIf="approvalsPurchaseOrder.length > 0">
+  <form [formGroup]="formPurchaseOrder" (ionChange)="submitPurchaseOrder()">
+    <div formArrayName="documents">
+      <ion-card
+        style="border-left: 3px solid #17a8aa"
+        [disabled]="disabledPurchaseRequest || disabledMeasurement"
+        *ngFor="
+          let pcOrder of approvalsPurchaseOrder[0]?.documents;
+          let i = index
+        "
+        class="box-card"
+      >
+        <ion-grid>
+          <ion-row>
+            <ion-col size="10"
+              >{{ pcOrder.documentType }} -
+              {{ pcOrder.documentNumber }}</ion-col
+            >
+            <ion-col size="2">
+              <div class="check-detail">
+                <ion-checkbox
+                  name="checked"
+                  mode="ios"
+                  [formControlName]="i"
+                ></ion-checkbox>
+                <span>{{ pcOrder.documentType }}</span>
+              </div>
+            </ion-col>
+          </ion-row>
+
+          <ion-row>
+            <ion-col>
+              <div
+                class="box-detail"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: stretch;
+                "
+              >
+                <span>Branch</span>
+                <strong>{{ pcOrder.documentBranch }}</strong>
+              </div>
+            </ion-col>
+
+            <ion-col>
+              <div
+                class="box-detail"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: stretch;
+                "
+              >
+                <span>Const Center</span>
+                <strong>{{
+                  pcOrder.purchaseOrder?.itemDescriptionCostCenter
+                }}</strong>
+              </div>
+            </ion-col>
+
+            <ion-col>
+              <div
+                class="box-detail"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: stretch;
+                "
+              >
+                <span>Supplier</span>
+                <strong>{{ pcOrder.purchaseOrder?.supplyerName }}</strong>
+              </div>
+            </ion-col>
+          </ion-row>
+
+          <ion-row
+            style="
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <ion-col>
+              <div
+                class="box-detail"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: stretch;
+                "
+              >
+                <span>Condição</span>
+                <strong>{{
+                  pcOrder.purchaseOrder?.paymentTermDescription
+                }}</strong>
+              </div>
+            </ion-col>
+
+            <ion-col>
+              <div
+                class="box-detail"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: stretch;
+                "
+              >
+                <span>Date</span>
+                <strong>{{ pcOrder.purchaseOrder?.date }}</strong>
+              </div>
+            </ion-col>
+
+            <ion-col>
+              <div
+                class="box-detail"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: stretch;
+                "
+              >
+                <span>Comprador</span>
+                <strong>{{ pcOrder.documentUserName }}</strong>
+              </div>
+            </ion-col>
+          </ion-row>
+
+          <ion-row
+            style="
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <ion-col
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+              "
+            >
+              <div class="box-detail">
+                <span>Valor</span>
+                <strong
+                  >{{ pcOrder.documentCurrency }}
+                  {{ pcOrder.documentTotal }}</strong
+                >
+              </div>
+            </ion-col>
+            <ion-col>
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  justify-content: flex-end;
+                "
+              >
+                <span>
+                  <a href=""> Detalhes </a>
+                </span>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card>
+    </div>
+  </form>
+</ng-container>
+
+<ng-container *ngIf="approvalsPurchaseRequest.length > 0">
+  <form [formGroup]="formPurchaseRequest" (ionChange)="submitPurchaseRequest()">
+    <div formArrayName="documents">
+      <ion-card
+        style="border-left: 3px solid #ff77e3"
+        [disabled]="disabledPurchaseOrder || disabledMeasurement"
+        *ngFor="
+          let prRequest of approvalsPurchaseRequest[0]?.documents;
+          let i = index
+        "
+        class="box-card"
+      >
+        <ion-grid>
+          <ion-row>
+            <ion-col size="10"
+              >{{ prRequest.documentType }} -
+              {{ prRequest.documentNumber }}</ion-col
+            >
+            <ion-col size="2">
+              <div class="check-detail">
+                <ion-checkbox
+                  name="checked"
+                  [formControlName]="i"
+                  mode="ios"
+                ></ion-checkbox>
+                <span>{{ prRequest.documentType }}</span>
+              </div>
+            </ion-col>
+          </ion-row>
+
+          <ion-row>
+            <ion-col>
+              <div
+                class="box-detail"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: stretch;
+                "
+              >
+                <span>Branch</span>
+                <strong>{{ prRequest.documentBranch }}</strong>
+              </div>
+            </ion-col>
+
+            <ion-col>
+              <div
+                class="box-detail"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: stretch;
+                "
+              >
+                <span>Const Center</span>
+                <strong>{{ prRequest.purchaseRequest?.CostCenter }}</strong>
+              </div>
+            </ion-col>
+          </ion-row>
+
+          <ion-row
+            style="
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <ion-col>
+              <div
+                class="box-detail"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: stretch;
+                "
+              >
+                <span>Date</span>
+                <strong>{{ prRequest.purchaseRequest?.date }}</strong>
+              </div>
+            </ion-col>
+            <ion-col>
+              <div
+                class="box-detail"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: stretch;
+                "
+              >
+                <span>Solicitante</span>
+                <strong>{{ prRequest.purchaseRequest?.requesterName }}</strong>
+              </div>
+            </ion-col>
+          </ion-row>
+
+          <ion-row
+            style="
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <ion-col
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+              "
+            >
+              <div class="box-detail">
+                <span>Valor</span>
+                <strong
+                  >{{ prRequest.documentCurrency }}
+                  {{ prRequest.documentTotal }}</strong
+                >
+              </div>
+            </ion-col>
+            <ion-col>
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  justify-content: flex-end;
+                "
+              >
+                <span>
+                  <a href=""> Detalhes </a>
+                </span>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card>
+    </div>
+  </form>
+</ng-container>
+
+<ng-container *ngIf="approvalsMeasurement.length > 0">
+  <form [formGroup]="formMeasurement" (ionChange)="submitMeasurement()">
+    <div formArrayName="documents">
+      <ion-card
+    style="border-left: 3px solid #6747a7"
+    [disabled]="disabledPurchaseOrder || disabledPurchaseRequest"
+    *ngFor="let msMeasurement of approvalsMeasurement[0]?.documents;
+    let i = index"
+    class="box-card"
+  >
+    <ion-grid>
+      <ion-row>
+        <ion-col size="10"
+          >{{ msMeasurement.documentType }} -
+          {{ msMeasurement.documentNumber }}</ion-col
+        >
+        <ion-col size="2">
+          <div class="check-detail">
+            <ion-checkbox
+            name="checked"
+            [formControlName]="i"
+              mode="ios"
+            ></ion-checkbox>
+            <span>{{ msMeasurement.documentType }}</span>
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <div
+            class="box-detail"
+            style="display: flex; flex-direction: column; align-items: stretch"
+          >
+            <span>Branch</span>
+            <strong>{{ msMeasurement.documentBranch }}</strong>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div
+            class="box-detail"
+            style="display: flex; flex-direction: column; align-items: stretch"
+          >
+            <span>Jurisdição</span>
+            <strong>{{ msMeasurement.measurements?.competence }}</strong>
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row
+        style="
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+        "
+      >
+        <ion-col>
+          <div
+            class="box-detail"
+            style="display: flex; flex-direction: column; align-items: stretch"
+          >
+            <span>Contrato</span>
+            <strong>{{ msMeasurement.measurements?.contractNumber }}</strong>
+          </div>
+        </ion-col>
+
+        <ion-col>
+          <div
+            class="box-detail"
+            style="display: flex; flex-direction: column; align-items: stretch"
+          >
+            <span>SpreadSheet</span>
+            <strong>{{
+              msMeasurement.measurements!.spreadsheet[0].number
+            }}</strong>
+          </div>
+        </ion-col>
+      </ion-row>
+
+      <ion-row
+        style="
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+        "
+      >
+        <ion-col
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          <div class="box-detail">
+            <span>Valor</span>
+            <strong
+              >{{ msMeasurement.documentCurrency }}
+              {{ msMeasurement.documentTotal }}</strong
+            >
+          </div>
+        </ion-col>
+        <ion-col>
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+            "
+          >
+            <span>
+              <a href=""> Detalhes </a>
+            </span>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+    </div>
+  </form>
+</ng-container>
+
+<div *ngIf="selected" class="fade-in">
+  <div class="button-container">
+    <ion-button class="button-fade-style-reprove" fill="outline">
+      Reprovar
+    </ion-button>
+    <ion-button class="button-fade-style" fill="outline" (click)="approvalDocument()" >
+      Aprovar
+    </ion-button>
+  </div>
+</div>
+

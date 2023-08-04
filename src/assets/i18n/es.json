@@ -1,0 +1,490 @@
+{
+    "COMMON": {
+        "TITLE": "Meu Protheus",
+        "CANCEL": "Cancelar",
+        "TO_VIEW": "Para Ver",
+        "OK": "OK",
+        "CLEAN": "Limpiar",
+        "MONTH": {
+            "JANUARY": "Enero",
+            "FEBRUARY": "Febrero",
+            "MARCH": "Marzo",
+            "APRIL": "Abril",
+            "MAY": "Mayo",
+            "JUNE": "Junio",
+            "JULY": "Julio",
+            "AUGUST": "Agosto",
+            "SEPTEMBER": "Septiembre",
+            "OCTOBER": "Octubre",
+            "NOVEMBER": "Noviembre",
+            "DECEMBER": "Diciembre"
+        },
+        "LOADING": "Cargando"
+    },
+    "LOGIN": {
+        "LOGIN": "Iniciar sesión",
+        "PASSWORD": "Ingrese su contraseña",
+        "USERNAME": "Ingrese su nombre de usuario",
+        "UNAUTHORIZED": "Usuario o contraseña incorretos",
+        "USER_NOT_AUTHORIZATION": "Usuario no autenticado offline",
+        "ERROR_SERVICE": "Se produjo un error inesperado. Vuelve a intentarlo.",
+        "INVALID_ALIAS": "Alias inválido.",
+        "TOKEN_FAIL": "Su sesión ha expirado, inicie sesión nuevamente.",
+        "DEMO_TITLE": "Modo de demostración",
+        "NO_CONECTION": "Sin conexión a internet",
+        "DISABLE_SECURITY": "No se pudo acceder al sistema. Comuníquese con el administrador del sistema y envíe el siguiente mensaje: La clave de 'seguridad' está desactivada en la configuración REST' key is disabled in the REST configuration.",
+        "SUCCESS_TOAST": "La solicitud se envió con éxito",
+        "DEMO": "Demostración",
+        "DEMO_MODE": "Proporcione la siguiente información para acceder a My Protheus en el modo de demostración:",
+        "ALIAS": {
+            "INSERT_ALIAS": "Ingrese su alias",
+            "HELP": "El Alias ​​es su identificador único en los sistemas Totvs. Registro que tiene como objetivo identificar la empresa y el usuario que utilizará nuestras aplicaciones. Solicite su Alias ​​completando los campos a continuación:",
+            "CANCEL": "Cancelar",
+            "REQUEST_ALIAS": "Solicitar alias",
+            "USERNAME": "Nombre",
+            "COMPANY_NAME": "Nombre de la empresa (opcional)",
+            "EMAIL": "E-mail",
+            "PHONE_NUMBER": "Numero de teléfono",
+            "CNPJ": "CNPJ (opcional)"
+        }
+    },
+    "HOME": {
+        "NOT_FOUND_ONLINE": "No se encontraron eventos.",
+        "NOT_FOUND_OFFLINE": "No se encontraron eventos sin conexión.",
+        "REPORT": "Informar",
+        "PROCESS": "Proceso",
+        "AGENT": "Agent",
+        "START": "Iniciar",
+        "END": "Fin",
+        "FAILED": "fallado",
+        "EVENT_TYPE": "Tipo de evento",
+        "INFORMATION": "Informacion",
+        "ALERT": "Alerta",
+        "ERROR": "Error",
+        "NO_DATA_FOUND": "Datos no encontrados"
+    },
+    "SETTINGS": {
+        "TITLE": "Datos de Usuario",
+        "USER": "Usuario",
+        "CLIENT": "Cliente",
+        "SET": "Set",
+        "ENTERPRISE": "Compañia",
+        "BRANCH": "Sucursal",
+        "EXIT": "Salir de la aplicación",
+        "APP_VERSION": "Versión de la aplicación",
+        "VERSION_NOT_FOUND": "No disponible"
+    },
+    "FILTER": {
+        "FILTER": "Filtro",
+        "SEARCH_TEXT": "Título, mensaje, programa, etc.",
+        "PERIOD": "Periodo",
+        "OF": "De",
+        "UNTIL": "Hasta",
+        "INFORMATION": "Información",
+        "ALERT": "Alerta",
+        "ERROR": "Error",
+        "TYPE_EVENTS": "Tipo de Eventos",
+        "SECURITY": "Seguridad",
+        "ENVIRONMENT": "Ambiente",
+        "INSTALL": "Instalación",
+        "APPLY_FILTERS": "Aplicar Filtros",
+        "CRITICAL": "Criticidad",
+        "REMOVE_FILTERS": "Eliminar filtros",
+        "SEARCH": "Rutina, mensaje o título.",
+        "DATE_INVALID": "* La fecha de finalización debe ser mayor que la fecha de inicio",
+        "DATE_REQUIRED": "* Ambas fechas deben completarse"
+    },
+    "FILTER_APPROVALS": {
+        "FILTER": "Filtrar",
+        "PERIOD": "Fechas",
+        "OF": "De",
+        "UNTIL": "Hasta",
+        "PURCHASE_ORDER": "Orden de Compra",
+        "TRAVEL": "Viaje",
+        "ERROR": "Error",
+        "TYPE": "Tipo",
+        "TYPE_EVENTS": "Tipo de Eventos",
+        "SECURITY": "La Seguridad",
+        "ENVIRONMENT": "Ambiente",
+        "INSTALL": "instalación",
+        "APPLY_FILTERS": "Aplicar Filtros",
+        "CRITICAL": "Criticidad",
+        "REMOVE_FILTERS": "Quitar Filtros",
+        "SEARCH": "Buscar",
+        "DATE_INVALID": "* La fecha de finalización debe ser mayor que la fecha de inicio",
+        "DATE_REQUIRED": "* Ambas fechas deben completarse",
+        "TYPE_SEARCH": "Puede Buscar:",
+        "TYPE_SUPPLIER": "Código o nombre del proveedor",
+        "TYPE ORDER": "Código de Solicitud",
+        "TYPE_OF_TRIP": "Código de Viaje",
+        "TYPE_OF_REQUEST": "Código de Solicitación",
+        "TYPE_OF_MEASUREMENT": "Código de Medición",
+        "ACCOUNTABILITY": "Responsabilidad de Cuentas",
+        "PURCHASE_REQUEST": "Solicitación de Compras",
+        "REQUEST_ORDERER": "Requerente",
+        "MEASUREMENT_CONTRACT": "Medición del Contrato"
+    },
+    "CHANGE_BRANCH": {
+        "PLACEHOLDER": "Buscar código de sucursal o descripción",
+        "TITLE": "CAMBIO DE SUCURSAL",
+        "LOADING": "Cargando...",
+        "PERIOD": "Curso del tiempo",
+        "INVALID_USER": "Usuario sin acceso a empresa / sucursal",
+        "UNABLE_TO_CHANGE_BRANCH": "No es posible cambiar de rama, todavía hay elementos de sincronización pendientes."
+    },
+    "SELECTOR": {
+        "NO_DATA_FOUND": "Datos no encontrados"
+    },
+    "APPROVALS": {
+        "ACCOUNTABILITY": "Responsabilidad de Cuentas",
+        "PARTICIPANT": "Partícipe",
+        "COST_CENTER": "Centro de costes",
+        "GOING": "Yendo",
+        "RETURN": "Regreso",
+        "REASON": "Razón",
+        "DETAIL": "Detalles",
+        "PURCHASE_ORDER": "Orden de compra",
+        "BRANCH": "Sucursal",
+        "PROVIDER": "Proveedor",
+        "CONDITION": "Condición",
+        "DATE": "Fecha",
+        "BUYER": "Comprador",
+        "COMMENT": "Comentario",
+        "VALUE": "Valor",
+        "SEND_COMMENT": "Enviar Desaprobación",
+        "PURCHASE_HISTORIC": "Historial de Compras",
+        "PRODUCT": "Producto",
+        "QUANTITY": "Cantidad",
+        "UNIT_VALUE": "V.Unitario",
+        "ADDITIONAL_INFORMATION": "Información Adicional",
+        "NOT_FOUND": "No se encontraron elementos",
+        "CUSTOMIZATION": "Personalización",
+        "UNIT_MEASUREMENT": "Un de  Medición",
+        "TOTAL_VALUE": "Valor Total",
+        "CODE": "Código",
+        "VIEW_MORE": "Ver más",
+        "HISTORIC": "Histórico",
+        "ALIAS_HELP": "ALIAS es su identificador único en los sistemas TOTVS. Es el registro que tiene como objetivo identificar la empresa y el usuario que accederá a nuestras aplicaciones. Solicite su ALIAS completando la siguiente información:",
+        "ALIAS_CANCEL": "Cancelar",
+        "ALIAS_REQUEST": "Solicitud",
+        "REASON_REPROVE": "Motivo del Rechazo",
+        "APPROVE_ITEMS": "Aprobar",
+        "FAIL_ITEMS": "Desaprobar",
+        "APPROVE_ITEMS_BATCH": "Aprobar",
+        "FAIL_ITEMS_BATCH": "Desaprobar",
+        "APPROVED": "Aprobado",
+        "PENDING": "Pendiente",
+        "REJECTED": "Desaprobado",
+        "ATTACHMENTS": "Archivos adjuntos",
+        "VALID_PURCHASE": "Validando pedido(s) en PROTHEUS",
+        "SELECT_PURCHASE": "Pedido seleccionado con divergencia en PROTHEUS, ¡actualice la página!",
+        "PURCHASE_REQUEST": "Solicitud de Compra",
+        "REQUEST_ORDERER": "Solicitante",
+        "SUPPLYER_NAME": "Proveedor",
+        "APPROVAL_GROUP": "Grupo"
+    },
+    "APPROVALS_DETAIL": {
+        "COST_CENTER": "Centro de Coste",
+        "CLIENT": "Cliente",
+        "NON_REFUNDABLE": "No Reembolsable",
+        "REFUNDABLE": "Reintegrable",
+        "GO": "Yendo",
+        "RETURN": "Regreso",
+        "SOURCE": "Fuente",
+        "PLACE": "Sitio",
+        "AMOUNT": "Monto",
+        "TOTAL_VALUE": "Valor total",
+        "SUCCESS_TOAST": "La solicitud se envió con éxito",
+        "DIVERGENCE": "Divergencia",
+        "PREVIOUS_VALUE":"Valor Anterior",
+        "PRESENT_VALUE":"Valor Actual",
+        "CLOSE_UPDATE": "Cerrar",
+        "MESSAGE_ERROR": "Acción no permitida. Petición(es) divergente(s) con Protheus. Por favor actualice y rehaga la acción."
+    },
+    "SHARE": {
+        "INFORMATION_EVENT": "Evento Informativo",
+        "WARNING_EVENT": "Evento de Atención",
+        "ERROR_EVENT": "Evento de Error",
+        "UNDEFINED_EVENT": "Evento Indefinido",
+        "MESSAGE": {
+            "SUBJECT_MATTER": "Estoy compartiendo con ustedes un evento que ocurrió en PROTHEUS.",
+            "TYPE": "Tipo:",
+            "TITLE": "Título:",
+            "MESSAGE": "Mensaje:",
+            "HOURS": "Calendario de Eventos:"
+        }
+    },
+    "TABS": {
+        "APPROVALS": "Aprobaciones",
+        "EVENTS": "Eventos"
+    },
+    "MODAL_NOTE": {
+        "COMMENTS": "Comentarios",
+        "NO_OBSERVATIONS": "Sin Observaciones"
+    },
+    "MODAL_DEVIATION": {
+        "TÍTULO": "Gastos fuera de los valores practicados",
+        "DESCRIPTION_1": "Este gasto es",
+        "DESCRIPTION_2": "% * por encima del valor medio en esta región",
+        "OBSERVATION_1": "Nota: Este aviso no es obstáculo para la aprobación de esta responsabilidad",
+        "OBSERVATION_2": "* Cantidades obtenidas a través de consultas para reembolsos de solicitudes que estaban previamente incluidas en el sistema de su empresa."
+    },
+    "MODAL_APPROVAL_COMPONENT": {
+        "APPROVAL": "¿De verdad quieres aprobar?",
+        "FAIL": "¿De verdad quieres fracasar?",
+        "REASON": "Razón",
+        "CONFIRM_APPROVAL": "Aprobación",
+        "CONFIRM_FAIL": "Fallar",
+        "CANCEL": "Cancelar"
+    },    
+    "PURCHARSES_ATTACHMENTS": {
+        "ATTACHMENTS": "Archivos Adjuntos",
+        "NAME": "Nombre",
+        "EXTENSION":"Extensión",
+        "NOT_FOUND":"No se encontraron artículos",
+        "LOADING_FILE": "Cargando archivo adjunto",
+        "ALERT": "Alerta",
+        "FILE_SIZE": "Archivo adjunto de más de 5 MB.",
+        "ALERT_DOWNLOAD": "Debido al tamaño del archivo adjunto, es posible que no se abra.",
+        "OVERSIZE":"Se excedió el tamaño del archivo adjunto",
+        "DOWNLOAD":"¿Realmente quieres continuar?",
+        "YES":"Sí",
+        "NO":"No",
+        "STATUS":"Estado",
+        "SHOW": "Show",
+        "DOCUMENT_WITH": "Adjunto con"
+    },
+    "DEMO": {
+        "DEMO_MODE": "Modo de Demostración",
+        "WELCOME": "Bienvenido al modo de demostración de My Protheus. Aquí encontrarás las principales características de nuestra aplicación",
+        "NEXT": "Seguiente",
+        "PENDING_ITEMS": "Elementos Pendientes",
+        "DESCRIPCIÓN": "En esta pestaña encontrará los Gastos y Órdenes de Compra pendientes de aprobación. También puede desaprobarlos si existe alguna inconsistencia.",
+        "APROBACIONES": "Aprobaciones",
+        "PURCHASE_ORDERS": "Órdenes de Compra",
+        "DESCRIPTION_2": "En esta pestaña encontrará las Órdenes de Compra que han sido aprobadas.",
+        "DISAPPROVE": "Rechazado",
+        "DESCRIPTION_3": "En esta pestaña encontrará las Órdenes de Compra que fueron rechazadas.",
+        "EVENTOS": "Eventos",
+        "DESCRIPTION_4": "En esta pestaña puede ver el progreso de procesamiento de algunas rutinas y procesos que ocurren dentro de Protheus.",
+        "APROBACIÓN": "Aprobación",
+        "EXPENDITURE_AND_ORDERS": "Gastos y Pedidos",
+        "DESCRIPTION_5": "En esta pestaña puede ver el progreso de procesamiento de algunas rutinas y procesos que ocurren dentro de Protheus.",
+        "PURCHASE_REQUESTS": "Solicitaciones de Compras",
+        "BRANCH_DESCRIPTION": "SUCURSAL 99",
+        "PURCHASER_NAME": "Comprador",
+        "SUPPLYER_NAME": "Proveedor",
+        "REQUESTER_NAME": "Requerente",
+        "PRODUCT_NAME": "PRODUCTO DEMONSTRACIÓN"
+    },
+    "MESSAGE_CODES": {
+        "OPERATION_SUCCESS": "Operación Completada con Éxito.",
+        "MSG_REQUEST_APPROVED": "Solicitaciones de Compras Aprobada.",
+        "MSG_REQUEST_REJECTED": "Solicitaciones de Compras Rechazada."
+    },
+    "CONTRACTS": {
+        "TITLE": "Mis Contratos",
+        "COMMOM": {
+            "CANCEL": "Cancelar",
+            "SELECT": "Seleccionar",
+            "EXPIRES_IN": "Expira en ",
+            "DAYS": " dias"
+        },
+        "CONTRACTS": {
+            "FILTER": {
+                "CLIENT": "Seleccione el cliente...",
+                "SUPPLIER": "Seleccione el proveedor..."
+            },
+            "NO_CONTRACTS": "No se pudo encontrar ningún contrato.",
+            "TYPE": {
+                "PURCHASE": "Compra",
+                "SALE": "Venta"
+            },
+            "PRESENT_RESULTS_FILTERED_BY": "Presentando resultados filtrados por",
+            "EXPERIRATION_BANNER_MSG": " contratos próximos al vencimiento",
+            "SHOW": "Mostrar",
+            "EXPIRING": "Próximos al vencimiento",
+            "EXPIRES_TODAY": "Vence hoy",
+            "EXPIRED": "Vencido"
+        },
+        "FILTERS": {
+            "TITLE": "Filtrar",
+            "TYPE": "Tipo",
+            "TYPE_SEL": {
+                "ALL": "Todos",
+                "BUY": "Compra",
+                "SELL": "Venta"
+            },
+            "SELECT_CLIENT": "Cliente",
+            "SELECT_SUPPLIER": "Proveedor",
+            "APPLY": "Aplicar Filtros"
+        },
+        "CONTRACT-DETAIL": {
+            "CONTRACT_SUMMARY": "Resumen del contrato",
+            "LABELS": {
+                "BALANCE": "Saldo de",
+                "CURRENT_VALUE": "Valor actual del contrato",
+                "CURRENT_BALANCE": "Saldo actual del contrato",
+                "CONTRACT_NUMBER": "Número del Contrato",
+                "SPREADSHEET": "Planilla",
+                "VALIDITY": "Vigencia"
+            },
+            "SPREADSHEETS": "Planillas",
+            "TOTAL_VALUE": "Valor Total",
+            "CONTRACT_BALANCE": "Saldo del Contrato",
+            "DETAIL": "Detalhado",
+            "SEE_DETAILS": "Ver Detalles"
+        },
+        "ERRORS": {
+            "INVALID_CREDENTIALS": "Usuario ou contrseña invalidos!",
+            "UNEXPECTED_ERROR": "Se produjo un error inesperado."
+        },
+        "GENERIC_INFO": {
+            "LOADING": "Cargando...",
+            "REFRESH": {
+                "PULL_TEXT": "Tire para actualizar",
+                "REFRESHING": "Actualizando..."
+            },
+            "WAITING_MESSAGE": "Por favor, espere..."
+        },
+        "LOGIN": {
+            "FORM": {
+                "ALIAS": {
+                    "ERRORS": {
+                        "REQUIRED": "Usted debe informar un alias"
+                    },
+                    "LABEL": "Alias"
+                },
+                "PASSWORD": {
+                    "ERRORS": {
+                        "REQUIRED": "Usted debe informar una contraseña"
+                    },
+                    "LABEL": "Contraseña"
+                },
+                "PASSWORD_TOGGLE": "Mostrar la contraseña",
+                "SIGN_IN_BUTTON": "Entrar",
+                "USERNAME": {
+                    "ERRORS": {
+                        "REQUIRED": "Usted debe informar un usuario"
+                    },
+                    "LABEL": "Usuario"
+                }
+            },
+            "TITLE": "Mis Contratos"
+        },
+        "CONFIG": {
+            "TITLE": "Configuraciones",
+            "CONFIGURACOES": "Configuraciones",
+            "PARAMETROS": "Parametros",
+            "EMPRESA": "Empresa",
+            "FILIAL": "Filial",
+            "DADOS_DE_LOGIN": "Datos de inicio de sesión",
+            "USUARIO": "Usuario",
+            "CLIENTE": "Cliente",
+            "SET": "Set",
+            "SAVED_CONTACTS": "Contactos Guardados",
+            "ADD_CONTACT": "Añadir nuevo contacto",
+            "CONTACT": "Conctato",
+            "LOADING": "Cargando...",
+            "SAIR": "Salir",
+            "ERROR_INSERT_CONTACT": "Informe el contacto",
+            "LOGOUT_ALERT": {
+                "TITLE": "¿Está seguro?",
+                "MSG": "¿Quieres salir?\n La información guardada en la aplicación se borrará",
+                "BTN_CANC": "Cancelar",
+                "BTN_CONF": "Confirmar"
+            }
+        },
+        "LOOKUP": {
+            "CANCEL": "Cancelar",
+            "CHOOSE": "Elegir",
+            "CUSTOMER": {
+                "PLACEHOLDER": "Clientes",
+                "SEARCHING": "Buscando clientes...",
+                "TITLE": "Buscar Clientes"
+            },
+            "SEARCH": "Buscar",
+            "SUPPLIER": {
+                "PLACEHOLDER": "Proveedores",
+                "SEARCHING": "Buscando proveedores...",
+                "TITLE": "Buscar Proveedores"
+            }
+        },
+        "PLACEHOLDER": {
+            "SEARCH": "Búsqueda"
+        },
+        "TABS": {
+            "CONTRACTS": "Contratos",
+            "MEASUREMENTS": "Mediciones",
+            "SETTINGS": "Configuraciones"
+        },
+        "MEASUREMENTS": {
+            "MEASUREMENTS": "Mediciones",
+            "MEASUREMENT": "Medición",
+            "CONTRACT": "Contrato",
+            "TYPE": "Tipo",
+            "COMPETENCE": "Cometidos",
+            "SPREADSHEETS": "Planillas",
+            "SEE_ITEMS": "Ver ítems",
+            "UNIT": "Unidad",
+            "CUSTOMER": "Cliente",
+            "SUPPLIER": "Comprador",
+            "NUMBER": "Número",
+            "STATUS": "Status",
+            "REPROVE": "Reprobar",
+            "APPROVE": "Aprobar",
+            "JUSTIFICATION": "Justificación",
+            "HISTORY": "Historico",
+            "NO_MEASUREMENTS": "No hay aprobaciones pendientes.",
+            "NO_MEASUREMENTS_FOUND": "No hay aprobaciones pendientes con la búsqueda realizada.",
+            "APPROVE_SUCCESS": "Medición aprobada con éxito",
+            "REPROVE_SUCCESS": "Medición reprobada con éxito"
+        },
+        "ITEMS": {
+            "TITLE": "Elementos de medición",
+            "PRODUCT": "Producto",
+            "QUANTITY": "Cantidad",
+            "QUANTITY_ITEMS": "Ítems",
+            "DISCOUNT": "% de descuento",
+            "UNIT_VALUE": "Valor unitario",
+            "TOTAL_VALUE": "Valor Total",
+            "DELIVERY_DATE": "Fecha de entrega",
+            "NO_ITEMS": "Medición sin elementos."
+        },
+        "MEASUREMENT_CARD": {
+            "NUMBER": "Contrato",
+            "DESCRIPTION": "Descripción",
+            "TOTAL_VALUE": "Valor Total",
+            "COMPETENCE": "Competencia",
+            "HISTORY": "Historial de aprobaciones",
+            "SPREADSHEETS": "Planillas",
+            "SPREADSHEET": "Planilla",
+            "APPROVE": "Aprobar",
+            "REPROVE": "Reprobar",
+            "JUSTIFICATION": "Justificación",
+            "CANCEL": "Cancelar",
+            "OPTIONAL": "Opcional",
+            "SEE_ITEMS": "Ver elementos"
+        },
+        "OFFLINE": {
+            "DETAIL": "Usted necesita conexión a Internet para el pleno funcionamiento de la aplicación.",
+            "MESSAGE": "Usted no está conectado a Internet."
+        },
+        "BALANCE-DETAILED": {
+            "TITLE": "Detallado",
+            "FLEX": "Flex",
+            "FIXED": "Fijo",
+            "ACCOMPLISHED": "Realizado",
+            "BUDGETED": "Presupuestado",
+            "FORECAST": "Pronóstico"
+        },
+        "SPREADSHEET_DETAILED": {
+            "BUDGETED": "Presupuestado",
+            "ACCOMPLISHED": "Realizado",
+            "FILTERS": "Filtros",
+            "QTD_COMPETENCY": "Cantidad de competencias",
+            "SHOW_ONLY_DIVERGENTS": "Mostrar sólo divergentes",
+            "OVERVIEW":"Visión de conjunto"
+        }
+    }
+}

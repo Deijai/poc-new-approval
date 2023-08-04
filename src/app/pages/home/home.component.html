@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <div class="navbar-container">
+      <div class="left-container">
+        <div class="thf-icon thf-icon-totvs neutral-color"></div>
+        <div class="title-style upper-case">Meu Protheus</div>
+      </div>
+      <ion-icon
+        (click)="openFilter()"
+        slot="end"
+        name="filter-outline"
+      ></ion-icon>
+    </div>
+
+    <ion-segment class="tabs" value="pending">
+      <ion-segment-button value="approved"> Aprovados </ion-segment-button>
+
+      <ion-segment-button value="pending"> Pendentes </ion-segment-button>
+
+      <ion-segment-button value="rejected"> Rejeitados </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-no-border" [scrollY]="true" [forceOverscroll]="true">
+  <div>
+    <ng-container
+      *ngIf="
+        purchaseOrder.length > 0 ||
+        purchaseRequest.length > 0 ||
+        measurements.length > 0
+      "
+    >
+      <app-totvs-card-approval
+        (emitterItemSelected)="onButton($event)"
+        [approvalsPurchaseOrder]="purchaseOrder"
+        [approvalsMeasurement]="measurements"
+        [approvalsPurchaseRequest]="purchaseRequest"
+        [approval]="approval"
+      >
+      </app-totvs-card-approval>
+    </ng-container>
+  </div>
+</ion-content>
